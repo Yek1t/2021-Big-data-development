@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/aspectjrt-1.8.2.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/aws-java-sdk-1.11.781-javadoc.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/aws-java-sdk-1.11.781-sources.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/aws-java-sdk-1.11.781.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/aws-swf-build-tools-1.1.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/freemarker-2.3.9.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/httpclient-4.5.9.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/httpcore-4.4.11.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/ion-java-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/jackson-annotations-2.6.0.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/jackson-core-2.6.7.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/jackson-databind-2.6.7.3.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/jackson-dataformat-cbor-2.6.7.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/javax.mail-api-1.4.6.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/jmespath-java-1.11.781.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/joda-time-2.8.1.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/netty-buffer-4.1.44.Final.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/netty-codec-4.1.44.Final.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/netty-codec-http-4.1.44.Final.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/netty-common-4.1.44.Final.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/netty-handler-4.1.44.Final.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/netty-resolver-4.1.44.Final.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/netty-transport-4.1.44.Final.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/spring-beans-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/spring-context-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/spring-core-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/bingocloud-sdk-s3-version/libs/spring-test-3.0.7.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
