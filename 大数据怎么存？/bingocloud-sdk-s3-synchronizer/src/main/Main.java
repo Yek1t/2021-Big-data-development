@@ -46,7 +46,7 @@ public class Main {
 	private final static String filePath = "C:\\Users\\57256\\Desktop\\shixun\\upload";
 	private final static String accessKey = "";
 	private final static String secretKey = "";
-	private final static String serviceEndpoint = "http://10.16.0.1:81";
+	private final static String serviceEndpoint = "";
 	private final static String signingRegion = "";
 
 	
