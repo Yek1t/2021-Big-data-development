@@ -44,8 +44,8 @@ public class Main {
 	private final static String bucketName = "yekit";
 	private final static String bucketPath = "/upload";
 	private final static String filePath = "C:\\Users\\57256\\Desktop\\shixun\\upload";
-	private final static String accessKey = "D74BB34F91565DF13A1C";
-	private final static String secretKey = "W0MxQjcxNzFCNzczOTYxOTY4RENFMjhERjYzOEE2";
+	private final static String accessKey = "";
+	private final static String secretKey = "";
 	private final static String serviceEndpoint = "http://10.16.0.1:81";
 	private final static String signingRegion = "";
 
@@ -113,7 +113,7 @@ public class Main {
 		for(String s1 : fileList) {
 			for(String s2 : list) {
 				if(s1.equals(s2)) {
-					if(compare(s1)) { // ±È½Ï±¾µØÎÄ¼şÓëÍ°ÖĞÎÄ¼şµÄETagÖµ£¬Èô²»ÏàÍ¬ÔòÖØĞÂÉÏ´«¡£
+					if(compare(s1)) { // æ¯”è¾ƒæœ¬åœ°æ–‡ä»¶ä¸æ¡¶ä¸­æ–‡ä»¶çš„ETagå€¼ï¼Œè‹¥ä¸ç›¸åŒåˆ™é‡æ–°ä¸Šä¼ ã€‚
 						newFileList.remove(s1);
 						newList.remove(s2);
 					}
@@ -332,7 +332,7 @@ public class Main {
 		String s = "";
 		try {
 			InputStream is = new FileInputStream(file);
-			String digest = DigestUtils.md5Hex(is); // ¼ÆËãMD5Öµ
+			String digest = DigestUtils.md5Hex(is); // è®¡ç®—MD5å€¼
 			s = digest;
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -350,7 +350,7 @@ public class Main {
 	public static boolean compare(String object) {
 		boolean flag = false;
 		String local = calculateETag(object);
-		String bucket = s3.getObjectMetadata(bucketName + bucketPath, object).getETag(); // »ñÈ¡Í°ÖĞÏàÍ¬ÎÄ¼şÃûµÄETag
+		String bucket = s3.getObjectMetadata(bucketName + bucketPath, object).getETag(); // è·å–æ¡¶ä¸­ç›¸åŒæ–‡ä»¶åçš„ETag
 		if(local.equals(bucket)) 
 			flag = true;
 		return flag;
